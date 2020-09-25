@@ -1,39 +1,17 @@
 <template>
-<div class="container">
-<app-header :title="name" ></app-header>
-<hr>
-<div class="row">
-    <app-servers></app-servers>
-    <app-server-details ></app-server-details>
-</div>
-<hr>
-<app-footer></app-footer>
-</div>
+  <div>
+  <home/>
+  </div>
 </template>
 
 <script>
-import Header from '@/components/Shared/Header'
-import Footer from '@/components/Shared/Footer'
-import Servers from '@/components/Server/Servers'
-import ServerDetails from '@/components/Server/ServerDetails'
+
 
 export default {
-components: {
-    'app-header': Header,
-    'app-servers': Servers,
-    'app-server-details': ServerDetails,
-    'app-footer': Footer
-    },
-    data: () => {
-        return {
-            name: false
-        }
-    }
+
 }
-
-
 </script>
 
-<style>
+<style lang="css" src="./css/index.module.css">
 
 </style>

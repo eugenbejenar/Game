@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.section {
+    /* background-color: grey; */
+    width: 100%;
+}
+
+.button-name {
+    margin-right: 25px;
+    margin-top: 100px;
+    padding: 3px;
+    border: 1px solid black;
+    margin-left: 25px;
+    background-color: rgba(158, 153, 153, 0.74);
+    color: rgb(79, 85, 79);
+}
+
+.controls,
+.log {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.log ul {
+    list-style: none;
+}
+
+.log ul .player-one {
+    color: red;
+}
+
+.player-turn {
+    background-color: rgba(17, 17, 223, 0.651);
+    color: blue;
+}
+
+.computer-turn {
+    background-color: rgba(209, 19, 19, 0.555);
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.healthbar {
+    width: 80%;
+    height: 35px;
+    background-color: aqua;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.coverHealthBar {
+    background-color: rgb(2, 250, 118);
+    margin: 0;
+    color: black;
+}
+
+#asssign-name {
+    padding: 10px;
+    background-color: rgb(49, 197, 49);
+}
+
+#start-game {
+    padding: 10px;
+    background-color: rgb(49, 197, 49);
+}
+
+#start-game:hover {
+    background-color: rgb(24, 151, 24);
+}
+
+#attack {
+    padding: 10px;
+    background-color: rgb(255, 8, 8);
+}
+
+#attack:hover {
+    background-color: rgb(200, 8, 8);
+}
+
+#special-attack {
+    padding: 10px;
+    background-color: rgba(238, 129, 27, 0.89);
+}
+
+#special-attack:hover {
+    background-color: rgba(219, 118, 3, 0.911);
+}
+
+#heal {
+    padding: 10px;
+    background-color: rgb(66, 235, 36);
+}
+
+#heal:hover {
+    background-color: rgb(110, 187, 9);
+}
+
+#give-up {
+    padding: 10px;
+    background-color: rgba(42, 115, 250, 0.918);
+}
+
+#give-up:hover {
+    background-color: rgb(231, 9, 9);
+}
